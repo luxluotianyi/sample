@@ -20,6 +20,11 @@ textarea {
   text-align: center;
 }
 
+.checkbox {
+  input[type='checkbox'] {
+    width: auto;
+  }
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,6 +69,13 @@ p {
   font-weight: bold;
   &:hover {
     color: #fff;
+  }
+}
+
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
   }
 }
 
